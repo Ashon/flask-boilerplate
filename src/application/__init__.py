@@ -40,7 +40,8 @@ def get_attr_or_default(attr_name, module, default):
 def override_or_use_default(attr_name, module, default):
 
     ''' override attribute from 'module' to 'default'
-        if source module has no attribute, then use default. '''
+        if source module has no attribute, then use default.
+    '''
 
     setattr(
         default, attr_name,

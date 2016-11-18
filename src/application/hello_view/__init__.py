@@ -5,6 +5,8 @@ from application.hello_view.views import HelloView
 
 
 def get_blueprint():
+    ''' get_blueprint() should returns flask.Blueprint
+    '''
 
     # Register the urls
     blueprint = Blueprint('hello_view', __name__)
